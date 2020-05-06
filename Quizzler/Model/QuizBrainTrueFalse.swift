@@ -57,6 +57,4 @@ struct QuizBrainTrueFalse {
             score = 0
         }
     }
-    
-    
 }
