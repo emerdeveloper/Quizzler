@@ -19,7 +19,7 @@ It's can select the type of questions, between multichoice and questions True/fa
 ## Portrait
 
 
-|  Home      |  Multichooice      |
+|  Home      |  Multichooice      |  True / False      |  Modal      |
 |------------|-------------|
 | ![Portrait](Documentation/portrait_home.png) |  ![Portrait](Documentation/portrait_multichoice.png)  | ![Portrait](Documentation/portrait_true-false.png) |  ![Portrait](Documentation/portrait_modal.png)  |
 
