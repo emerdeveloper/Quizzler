@@ -1,3 +1,4 @@
+
 # Quizzler
 A trivia quiz iOS App Native
 
@@ -16,13 +17,11 @@ It's a quiz app that allows you to choose a question and you can see your progre
 It's can select the type of questions, between multichoice and questions True/false.
 
 
-## Portrait
+## Screenshots
 
 
-|  Home      |  Multichooice      |  True / False      |  Modal      |
+|  Home      |  Multichoice      |  True / False      |  Modal      |
 |------------|-------------|------------|-------------|
 | ![Portrait](Documentation/portrait_home.png) |  ![Portrait](Documentation/portrait_multichoice.png)  | ![Portrait](Documentation/portrait_true-false.png) |  ![Portrait](Documentation/portrait_modal.png)  |
 
-
-## Landscape
 
