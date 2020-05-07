@@ -21,7 +21,7 @@ It's can select the type of questions, between multichoice and questions True/fa
 
 |  Home      |  Multichooice      |
 |------------|-------------|
-| ![Portrait](Documentation/portrait_home.png) |  ![Portrait](Documentation/portrait_multichoice.png)  |
+| ![Portrait](Documentation/portrait_home.png) |  ![Portrait](Documentation/portrait_multichoice.png)  | ![Portrait](Documentation/portrait_true-false.png) |  ![Portrait](Documentation/portrait_modal.png)  |
 
 
 ## Landscape
