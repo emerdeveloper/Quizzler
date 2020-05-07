@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MultichoiceViewController: UIViewController {
+class MultichoiceViewController: UIViewController, ModalHandler {
 
     @IBOutlet weak var labelScore: UILabel!
     @IBOutlet weak var labelQuestion: UILabel!
@@ -43,12 +43,30 @@ class MultichoiceViewController: UIViewController {
         buttonChoiceTwo.setTitle(quizBrain.getAnswers()[1], for: .normal)
         buttonChoiceThree.setTitle(quizBrain.getAnswers()[2], for: .normal)
 
-        
+        let progress = quizBrain.getProgress()
+        let score = quizBrain.getScore()
         labelQuestion.text = quizBrain.getQuestionText()
-        progressBar.progress = quizBrain.getProgress()
-        labelScore.text = "Score: \(quizBrain.getScore())"
+        progressBar.progress = progress
+        labelScore.text = "Score: \(score)"
         buttonChoiceOne.backgroundColor = UIColor.clear
         buttonChoiceTwo.backgroundColor = UIColor.clear
         buttonChoiceThree.backgroundColor = UIColor.clear
+        showPopup(progress: progress, score: score)
+    }
+    
+    func showPopup(progress: Float, score: Int) {
+        if (progress == 1) {
+            if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Popup") as? PopupViewController
+            {
+                vc.score = String(Int(score * 10))
+                vc.modalHandlerDelegate = self
+                present(vc, animated: true)
+            }
+        }
+    }
+    
+    func modalDismissed() {
+        quizBrain.nextQuestion()
+        updateUI()
     }
 }

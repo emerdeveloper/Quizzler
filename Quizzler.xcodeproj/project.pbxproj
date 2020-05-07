@@ -12,12 +12,14 @@
 		2ACF45E62322BCBA00F348FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ACF45E42322BCBA00F348FC /* Main.storyboard */; };
 		2ACF45E82322BCBB00F348FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ACF45E72322BCBB00F348FC /* Assets.xcassets */; };
 		2ACF45EB2322BCBB00F348FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ACF45E92322BCBB00F348FC /* LaunchScreen.storyboard */; };
-		2AEE37602463232A00581F4D /* QuestionTrueFalse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE375F2463232A00581F4D /* QuestionTrueFalse.swift */; };
-		2AEE37652463436D00581F4D /* QuizBrainTrueFalse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE37642463436D00581F4D /* QuizBrainTrueFalse.swift */; };
 		2AEE3767246356DD00581F4D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE3766246356DD00581F4D /* HomeViewController.swift */; };
 		2AEE376924636A1C00581F4D /* MultichoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE376824636A1C00581F4D /* MultichoiceViewController.swift */; };
 		2AEE376B2463702500581F4D /* QuestionMultichoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE376A2463702500581F4D /* QuestionMultichoice.swift */; };
 		2AEE376D246370C000581F4D /* QuizBrainMultichoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE376C246370C000581F4D /* QuizBrainMultichoice.swift */; };
+		2AEE376F24637E3300581F4D /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE376E24637E3300581F4D /* PopupViewController.swift */; };
+		2AEE37732463973200581F4D /* QuestionTrueFalse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE37722463973200581F4D /* QuestionTrueFalse.swift */; };
+		2AEE37752463980B00581F4D /* QuizBrainTrueFalse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE37742463980B00581F4D /* QuizBrainTrueFalse.swift */; };
+		2AEE377724639FE500581F4D /* ModalHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE377624639FE500581F4D /* ModalHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +30,14 @@
 		2ACF45E72322BCBB00F348FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2ACF45EA2322BCBB00F348FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2ACF45EC2322BCBB00F348FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2AEE375F2463232A00581F4D /* QuestionTrueFalse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTrueFalse.swift; sourceTree = "<group>"; };
-		2AEE37642463436D00581F4D /* QuizBrainTrueFalse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrainTrueFalse.swift; sourceTree = "<group>"; };
 		2AEE3766246356DD00581F4D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2AEE376824636A1C00581F4D /* MultichoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultichoiceViewController.swift; sourceTree = "<group>"; };
 		2AEE376A2463702500581F4D /* QuestionMultichoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionMultichoice.swift; sourceTree = "<group>"; };
 		2AEE376C246370C000581F4D /* QuizBrainMultichoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrainMultichoice.swift; sourceTree = "<group>"; };
+		2AEE376E24637E3300581F4D /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		2AEE37722463973200581F4D /* QuestionTrueFalse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTrueFalse.swift; sourceTree = "<group>"; };
+		2AEE37742463980B00581F4D /* QuizBrainTrueFalse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrainTrueFalse.swift; sourceTree = "<group>"; };
+		2AEE377624639FE500581F4D /* ModalHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				2ACF45E22322BCBA00F348FC /* ViewController.swift */,
 				2AEE3766246356DD00581F4D /* HomeViewController.swift */,
 				2AEE376824636A1C00581F4D /* MultichoiceViewController.swift */,
+				2AEE376E24637E3300581F4D /* PopupViewController.swift */,
+				2AEE377624639FE500581F4D /* ModalHandler.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -98,10 +104,10 @@
 		2AEE37632463434100581F4D /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				2AEE375F2463232A00581F4D /* QuestionTrueFalse.swift */,
-				2AEE37642463436D00581F4D /* QuizBrainTrueFalse.swift */,
 				2AEE376A2463702500581F4D /* QuestionMultichoice.swift */,
 				2AEE376C246370C000581F4D /* QuizBrainMultichoice.swift */,
+				2AEE37722463973200581F4D /* QuestionTrueFalse.swift */,
+				2AEE37742463980B00581F4D /* QuizBrainTrueFalse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -181,11 +187,13 @@
 				2AEE376D246370C000581F4D /* QuizBrainMultichoice.swift in Sources */,
 				2AEE3767246356DD00581F4D /* HomeViewController.swift in Sources */,
 				2AEE376924636A1C00581F4D /* MultichoiceViewController.swift in Sources */,
+				2AEE37752463980B00581F4D /* QuizBrainTrueFalse.swift in Sources */,
 				2AEE376B2463702500581F4D /* QuestionMultichoice.swift in Sources */,
-				2AEE37602463232A00581F4D /* QuestionTrueFalse.swift in Sources */,
+				2AEE376F24637E3300581F4D /* PopupViewController.swift in Sources */,
 				2ACF45E32322BCBA00F348FC /* ViewController.swift in Sources */,
 				2ACF45E12322BCBA00F348FC /* AppDelegate.swift in Sources */,
-				2AEE37652463436D00581F4D /* QuizBrainTrueFalse.swift in Sources */,
+				2AEE377724639FE500581F4D /* ModalHandler.swift in Sources */,
+				2AEE37732463973200581F4D /* QuestionTrueFalse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

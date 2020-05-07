@@ -39,7 +39,7 @@ struct QuizBrainMultichoice {
     }
     
     func getQuestionText() -> String {
-        quiz[questionNumber].text
+        return quiz[questionNumber].text
     }
     
     func getProgress() -> Float {
